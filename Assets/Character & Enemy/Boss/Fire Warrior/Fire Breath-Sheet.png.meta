@@ -1,0 +1,483 @@
+fileFormatVersion: 2
+guid: 05e49bec4e456b24681cdd4fd7eae45b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fire Breath-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 6
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6053a8419762f95448b4e3f2911b3e22
+      internalID: -2010582502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Breath-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 9
+        width: 55
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca23382f58d16740b1bbf2cfcaeb48d
+      internalID: -90055261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Breath-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 8
+        width: 58
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2feb94b2dc156e64fbe88065630daccd
+      internalID: -1915062110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Breath-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 9
+        width: 53
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29816d2841df3924dae421b73d2e66e9
+      internalID: -564148196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Breath-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 12
+        width: 55
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d3f56944f80124fb60e0f0b682d93f
+      internalID: 804129074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Breath-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 12
+        width: 58
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05fa615cdb028b241b877a293d32e3fd
+      internalID: 1388345419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Breath-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 7
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78592d4d1cacc4c4395a11aaba987ff7
+      internalID: 618173030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Breath-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 8
+        width: 51
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdcfa9c54e96cc841aae97abec20e9cc
+      internalID: -1715467476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Breath-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 7
+        width: 51
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa6780ae371d3f489cd22fbe0715d6e
+      internalID: -1746570829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Breath-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 11
+        width: 64
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c240bd25afb84e48b715cc06a6e01ae
+      internalID: -1520459538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Breath-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 14
+        width: 59
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13fd67d6c33635c41a8bae7ad1d00ede
+      internalID: -1122175775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Breath-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 14
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde210eafb544ea4c876aa8d235398d5
+      internalID: -345968243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Breath-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 16
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8eab3f196415d34cac4381914907e2d
+      internalID: -1096685576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Fire Breath-Sheet_0: -1520459538
+      Fire Breath-Sheet_1: -1122175775
+      Fire Breath-Sheet_10: 481462675
+      Fire Breath-Sheet_11: 804129074
+      Fire Breath-Sheet_12: 1388345419
+      Fire Breath-Sheet_13: -1964571938
+      Fire Breath-Sheet_14: 1877870720
+      Fire Breath-Sheet_15: -1526846446
+      Fire Breath-Sheet_16: 618173030
+      Fire Breath-Sheet_17: -1715467476
+      Fire Breath-Sheet_18: 2107505246
+      Fire Breath-Sheet_19: -1746570829
+      Fire Breath-Sheet_2: -345968243
+      Fire Breath-Sheet_20: -1899760673
+      Fire Breath-Sheet_21: 1521322434
+      Fire Breath-Sheet_22: 1688957728
+      Fire Breath-Sheet_23: -690618033
+      Fire Breath-Sheet_24: 997917051
+      Fire Breath-Sheet_25: 1327529822
+      Fire Breath-Sheet_26: 182052512
+      Fire Breath-Sheet_27: -1968727714
+      Fire Breath-Sheet_28: -1562631063
+      Fire Breath-Sheet_29: 2070427874
+      Fire Breath-Sheet_3: -1096685576
+      Fire Breath-Sheet_30: -782394313
+      Fire Breath-Sheet_31: -460357954
+      Fire Breath-Sheet_32: 1239952229
+      Fire Breath-Sheet_33: -1126651588
+      Fire Breath-Sheet_34: -533139264
+      Fire Breath-Sheet_35: -1184142865
+      Fire Breath-Sheet_36: -1563899758
+      Fire Breath-Sheet_37: 1662221796
+      Fire Breath-Sheet_38: -804629408
+      Fire Breath-Sheet_39: -1431427302
+      Fire Breath-Sheet_4: -2010582502
+      Fire Breath-Sheet_40: 1610339354
+      Fire Breath-Sheet_41: -688125177
+      Fire Breath-Sheet_42: -585652262
+      Fire Breath-Sheet_43: 2110876562
+      Fire Breath-Sheet_44: 1652410807
+      Fire Breath-Sheet_45: 363261244
+      Fire Breath-Sheet_46: -1495952078
+      Fire Breath-Sheet_47: -1803621542
+      Fire Breath-Sheet_48: -1431720646
+      Fire Breath-Sheet_49: 607305636
+      Fire Breath-Sheet_5: -228459423
+      Fire Breath-Sheet_50: 1321818168
+      Fire Breath-Sheet_51: -109146684
+      Fire Breath-Sheet_52: -1903594807
+      Fire Breath-Sheet_53: -1852995887
+      Fire Breath-Sheet_54: -877265800
+      Fire Breath-Sheet_55: 1664599360
+      Fire Breath-Sheet_56: 1748427611
+      Fire Breath-Sheet_6: -90055261
+      Fire Breath-Sheet_7: -1915062110
+      Fire Breath-Sheet_8: -1699149515
+      Fire Breath-Sheet_9: -564148196
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
