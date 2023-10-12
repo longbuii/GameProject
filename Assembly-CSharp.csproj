@@ -58,8 +58,10 @@
     <Analyzer Include="F:\Unity\Unity\Hub\Editor\2022.3.0f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Enemy&amp;Boss&amp;Trap\Enemy\chaseControl.cs" />
     <Compile Include="Assets\Scripts\Enemy&amp;Boss&amp;Trap\Traps\Enemy_Side.cs" />
     <Compile Include="Assets\Scripts\Others\ManagerLevel.cs" />
+    <Compile Include="Assets\Scripts\Enemy&amp;Boss&amp;Trap\Enemy\EnemyMlee.cs" />
     <Compile Include="Assets\Scripts\Ui\SelectionArrow.cs" />
     <Compile Include="Assets\Scripts\Camera\SoundManager.cs" />
     <Compile Include="Assets\Scripts\Ui\InventorySystem.cs" />
@@ -69,26 +71,31 @@
     <Compile Include="Assets\Scripts\Enemy&amp;Boss&amp;Trap\Boss\Boss2.cs" />
     <Compile Include="Assets\Scripts\Camera\ParallaxCamera.cs" />
     <Compile Include="Assets\Scripts\Enemy&amp;Boss&amp;Trap\Boss\BarEmeny.cs" />
-    <Compile Include="Assets\Boss1_Walk.cs" />
-    <Compile Include="Assets\Boss2_Walk.cs" />
     <Compile Include="Assets\Scripts\Player\XpManager.cs" />
     <Compile Include="Assets\Scripts\Camera\LoadingManager.cs" />
     <Compile Include="Assets\Scripts\Enemy&amp;Boss&amp;Trap\Traps\TrapProjectile.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraController.cs" />
     <Compile Include="Assets\Scripts\Tools\MovingPlatform.cs" />
     <Compile Include="Assets\Scripts\Others\DamageBuff.cs" />
+    <Compile Include="Assets\Scripts\Ui\ShopManager.cs" />
+    <Compile Include="Assets\Scripts\Health\Defend.cs" />
     <Compile Include="Assets\Scripts\Enemy&amp;Boss&amp;Trap\Traps\Spikehead.cs" />
     <Compile Include="Assets\Scripts\Items\ItemContents.cs" />
+    <Compile Include="Assets\Scripts\Others\GameManager.cs" />
     <Compile Include="Assets\Scripts\Health\Health.cs" />
+    <Compile Include="Assets\Scripts\Enemy&amp;Boss&amp;Trap\Boss\BossWater.cs" />
     <Compile Include="Assets\Animation\Check Point\Checkpoint.cs" />
+    <Compile Include="Assets\Scripts\Tools\PortalNon.cs" />
     <Compile Include="Assets\Scripts\ParallaxBG\ParallaxBackground.cs" />
+    <Compile Include="Assets\Scripts\ParallaxBG\ScrollingBackGround.cs" />
     <Compile Include="Assets\Scripts\Health\Healthbar.cs" />
+    <Compile Include="Assets\Scripts\Enemy&amp;Boss&amp;Trap\Enemy\HealthEnemy.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerUpgradeManager.cs" />
     <Compile Include="Assets\Scripts\Enemy&amp;Boss&amp;Trap\Enemy\EnemyDamaged.cs" />
     <Compile Include="Assets\Scripts\Enemy&amp;Boss&amp;Trap\Traps\TrapDamage.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerAttack.cs" />
     <Compile Include="Assets\Scripts\Enemy&amp;Boss&amp;Trap\Enemy\EnemyProjectile.cs" />
-    <Compile Include="Assets\Scripts\Enemy&amp;Boss&amp;Trap\Boss\Boss1.cs" />
+    <Compile Include="Assets\Scripts\Health\ExperienceCollectible.cs" />
     <Compile Include="Assets\Scripts\Others\PowerUp.cs" />
     <Compile Include="Assets\Scripts\Enemy&amp;Boss&amp;Trap\Enemy\RangedEnemy.cs" />
     <Compile Include="Assets\Scripts\Others\PowerupEffect.cs" />
@@ -97,23 +104,27 @@
     <Compile Include="Assets\Scripts\Enemy&amp;Boss&amp;Trap\Enemy\EnemyFireballHolder.cs" />
     <Compile Include="Assets\Scripts\Enemy&amp;Boss&amp;Trap\Enemy\Menemy.cs" />
     <Compile Include="Assets\Scripts\Items\Chest.cs" />
+    <Compile Include="Assets\Scripts\Enemy&amp;Boss&amp;Trap\Enemy\EnemyFlying.cs" />
     <Compile Include="Assets\Scripts\Health\DefenseBar.cs" />
     <Compile Include="Assets\Scripts\Player\XpBossManager.cs" />
-    <Compile Include="Assets\Scripts\Enemy&amp;Boss&amp;Trap\Boss\Boss.cs" />
     <Compile Include="Assets\Scripts\Ui\UiManager.cs" />
-    <Compile Include="Assets\Scripts\Ui\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\Player\Projectile.cs" />
     <Compile Include="Assets\Scripts\Ui\ScoreSystem.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMove.cs" />
+    <Compile Include="Assets\Scripts\Enemy&amp;Boss&amp;Trap\Boss\HealthEnemyBoss.cs" />
+    <Compile Include="Assets\Scripts\Others\Menu.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerRespawn.cs" />
+    <Compile Include="Assets\Scripts\Tools\Portal.cs" />
     <Compile Include="Assets\Scripts\ParallaxBG\ParallaxLayer.cs" />
     <Compile Include="Assets\Scripts\Health\Healthcollectible.cs" />
     <Compile Include="Assets\Scripts\Enemy&amp;Boss&amp;Trap\Traps\FireTrap.cs" />
     <Compile Include="Assets\Scripts\Player\InteractionSystem.cs" />
+    <Compile Include="Assets\Scripts\Tools\Teleport.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Tilemaps\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\Tilemaps\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Others\Font\Fibberish v1.0\readme.txt" />
     <None Include="Assets\Tilemaps\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\Tilemaps\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\Tilemaps\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
@@ -127,6 +138,7 @@
     <None Include="Assets\Tilemaps\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\Tilemaps\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Tilemaps\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\Others\Super Mountain Dusk Files\public-license.txt" />
     <None Include="Assets\Tilemaps\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Tilemaps\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\Tilemaps\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />

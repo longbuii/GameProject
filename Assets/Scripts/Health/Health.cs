@@ -132,11 +132,6 @@ public class Health : MonoBehaviour
                 SoundManager.instance.Playsound(deathSound);
             }
         }
-        if (currentHealth > 4)
-        {
-            PlayerPrefs.SetFloat("PlayerHealth", currentHealth);
-            PlayerPrefs.Save();
-        }
         // Gọi sự kiện OnHealthChanged để cập nhật UI
         OnHealthChanged?.Invoke(currentHealth);
     }

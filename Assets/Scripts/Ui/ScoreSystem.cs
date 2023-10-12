@@ -7,7 +7,7 @@ public class ScoreSystem : MonoBehaviour
 {
     // Start is called before the first frame update
     public TextMeshProUGUI myScore;
-    private int scoreNum;
+    public int scoreNum;
     [SerializeField] private GameObject scoreObject;
     void Start()
     {
@@ -64,6 +64,21 @@ public class ScoreSystem : MonoBehaviour
     public void UpdateScoreUI()
     {
         myScore.text = " " + scoreNum.ToString();
+    }
+    public bool TryPurchaseItem(int itemCost)
+    {
+        if (scoreNum >= itemCost)
+        {
+            // Đủ tiền để mua item
+            scoreNum -= itemCost;
+            UpdateScoreUI();
+            return true;
+        }
+        else
+        {
+            // Không đủ tiền
+            return false;
+        }
     }
 
 }

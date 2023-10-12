@@ -68,36 +68,39 @@ public class InventorySystem : MonoBehaviour
     // Add the item to the item list
     public void Pickup(GameObject _item)
     {
-        // If item is stackable
-        if (_item.GetComponent<Item>().stackable)
+        if (CanPickUp())
         {
-            // Check if we have an exitsting item in our inventory
-            InventoryItem existingItem = items.Find(x => x.obj.name == _item.name);
-            // If yes stack it
-            if (existingItem != null)
+            // If item is stackable
+            if (_item.GetComponent<Item>().stackable)
             {
-                existingItem.stack++;
+                // Check if we have an existing item in our inventory
+                InventoryItem existingItem = items.Find(x => x.obj.name == _item.name);
+                // If yes, stack it
+                if (existingItem != null)
+                {
+                    existingItem.stack++;
+                }
+                // If no, add it as a new item
+                else
+                {
+                    InventoryItem i = new InventoryItem(_item);
+                    items.Add(i);
+                }
             }
-            // If no add it as a new item
+            // If item isn't stackable
             else
             {
                 InventoryItem i = new InventoryItem(_item);
                 items.Add(i);
             }
+            Update_UI();
         }
-        // If item isn't stackable
-        else
-        {
-            InventoryItem i = new InventoryItem(_item);
-            items.Add(i);
-        }
-        Update_UI();
-        
     }
+
 
     public bool CanPickUp()
     {
-        if (items.Count >= items_Images.Length)
+        if (items.Count == items_Images.Length)
         {
             return false;
         }

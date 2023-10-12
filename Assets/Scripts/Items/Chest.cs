@@ -10,6 +10,7 @@ public class Chest : MonoBehaviour
     {
         InstantOpen, // Chest mở ngay khi gặp và có thể nhận coin
         BossDefeatOpen, // Chest chỉ mở sau khi đánh bại boss
+        EmptyChest
     }
     public ChestType chestType;
 
@@ -18,6 +19,7 @@ public class Chest : MonoBehaviour
     public GameObject openedChestPrefab; // Prefab của rương sau khi mở  
     private bool isOpened = false; // Biến xác định xem rương đã mở hay chưa
     private bool isChestOpened = false;
+    private float openedTime;
 
 
     // References
@@ -53,6 +55,14 @@ public class Chest : MonoBehaviour
                 break;
         }
     }
+    private void Update()
+    {
+        if (isChestOpened && Time.time - openedTime > 5f)
+        {
+            // Nếu rương đã mở và đã qua 5 giây, hãy ẩn nó
+            gameObject.SetActive(false);
+        }
+    }
 
     public void Interact()
     {
@@ -69,8 +79,31 @@ public class Chest : MonoBehaviour
             case ChestType.BossDefeatOpen:
                 OpenAfterBossDefeat();
                 break;
+
+            case ChestType.EmptyChest:
+                // Đây là loại rương trống, không cần thực hiện bất kỳ hành động gì.
+                // Tắt rương rỗng
+                isOpened = true;
+                StartCoroutine(DisappearAfterDelay(5f));
+                break;
         }
     }
+    private IEnumerator DisappearAfterDelay(float delay)
+    {
+        // Đợi trong khoảng thời gian delay trước khi chạy animation
+        yield return new WaitForSeconds(delay);
+
+        // Kích hoạt animation khi mở
+        if (anim != null)
+        {
+            anim.SetBool("open", true); // "OpenChest" là tên của Animation Clip.
+        }
+        isChestOpened = true;
+
+        // Ghi lại thời điểm rương được mở
+        openedTime = Time.time;
+    }
+
 
     private void OpenInstantChest()
     {
@@ -92,6 +125,11 @@ public class Chest : MonoBehaviour
         // Thêm số coin này vào điểm số của người chơi
         scoreSystem.AddScore(receivedCoins);
         Debug.Log("Received " + receivedCoins + " coins!");
+
+        if (openedChestPrefab != null)
+        {
+            Instantiate(openedChestPrefab, transform.position, transform.rotation);
+        }
 
         // Tắt rương và hiển thị rương đã mở
         isOpened = true;

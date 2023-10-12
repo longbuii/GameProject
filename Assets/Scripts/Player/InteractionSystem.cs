@@ -27,6 +27,8 @@ public class InteractionSystem : MonoBehaviour
     public TextMeshProUGUI examineText;
     public bool isExamining;
     public bool isGrabbing;
+    public bool isShopOpen = false;
+
 
     [Header("Others")]
     public PlayerMove playerMove;
@@ -50,11 +52,24 @@ public class InteractionSystem : MonoBehaviour
                     GrapDrop();
                     return;
                 }
+
                 if (detectedObject.CompareTag("Chest"))
                 {
                     detectedObject.GetComponent<Chest>().Interact();
                 }
-                // Nếu không phải rương, hãy kiểm tra loại tương tác và thực hiện các hành động tương ứng
+                else if (detectedObject.CompareTag("Shop"))
+                {
+                    if (!isShopOpen)
+                    {
+                        detectedObject.GetComponent<ShopManager>().OpenShop();
+                        isShopOpen = true;
+                    }
+                    else
+                    {
+                        detectedObject.GetComponent<ShopManager>().CloseShop();
+                        isShopOpen = false;
+                    }
+                }
                 else
                 {
                     detectedObject.GetComponent<Item>().Interact();
